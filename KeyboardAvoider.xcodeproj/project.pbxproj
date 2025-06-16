@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		4484E31B2DFE1AE80035C61E /* KeyboardAvoider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EE42562E00C57C007220E6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +46,7 @@
 		4484E3122DFE1AE80035C61E = {
 			isa = PBXGroup;
 			children = (
+				44EE42562E00C57C007220E6 /* README.md */,
 				4484E31D2DFE1AE80035C61E /* KeyboardAvoider */,
 				4484E31C2DFE1AE80035C61E /* Products */,
 			);
