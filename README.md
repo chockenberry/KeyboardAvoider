@@ -20,7 +20,7 @@ The keyboard layout guide is unpredictable on iOS 26 when an inputAccessoryView 
 
 The following conditions have been observed and are included as screenshots:
 
-1. On launch, the layout guide is placed above an inputAccessoryView the first time a UITextView becomes the first responder. [(1 - iPadOS - first launch.png)](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/1%20-%20iPadOS%20-%20first%20launch.png)
+1. On launch, the layout guide is placed above an inputAccessoryView the first time a UITextView becomes the first responder. ![(1 - iPadOS - first launch.png)](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/1%20-%20iPadOS%20-%20first%20launch.png)
 
 2. On interactive dismiss, the layout guide is placed above the safe area after the dismiss completes. Additionally, the guide jumps around during the dismiss. Additionally, the misplacement offset depends on whether the device is in a horizontal or portrait orientation. (2 - iPadOS - interactive dismiss.png, 2 - iOS - interactive dismiss.png, 2 - iOS - interactive dismiss landscape.png)
 
