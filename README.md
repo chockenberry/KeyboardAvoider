@@ -2,6 +2,10 @@
 
 A sample app that demonstrates the issues with the software and hardware keyboard on iOS 26.
 
+The **red bar** shows issues with the **Keyboard Layout Guide**.
+
+The **orange bar** shows issues with the **keyboard frame notifications**.
+
 This app was submitted with the following feedback:
 
 ## FB18129544 - REGRESSION: iOS 26: Keyboard layout frame is reported in view coordinates, not screen coordinates.
