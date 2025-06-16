@@ -32,11 +32,17 @@ The following conditions have been observed and are included as screenshots:
 
 ![2 - iOS - interactive dismiss landscape.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/2%20-%20iOS%20-%20interactive%20dismiss%20landscape.png)
 
-3. With a hardware keyboard connected, the layout guide is underneath the inputAccessoryView when the UITextView becomes the first responder. (3 - iPadOS - hardware keyboard responder.png)
+3. With a hardware keyboard connected, the layout guide is underneath the inputAccessoryView when the UITextView becomes the first responder.
 
-4. With a hardware keyboard connected, the layout guide is well above the safe area  when the UITextView resigns the first responder. (4 - iPadOS - hardware keyboard not responder.png)
+![3 - iPadOS - hardware keyboard responder.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/3%20-%20iPadOS%20-%20hardware%20keyboard%20responder.png)
 
-5. With a software keyboard with an inputAccessoryView, the layout guide is underneath the inputAccessoryView that's attached to the bottom of the window. (5 - iPadOS - no intersection.png)
+4. With a hardware keyboard connected, the layout guide is well above the safe area  when the UITextView resigns the first responder.
+
+![4 - iPadOS - hardware keyboard not responder.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/4%20-%20iPadOS%20-%20hardware%20keyboard%20not%20responder.png)
+
+5. With a software keyboard with an inputAccessoryView, the layout guide is underneath the inputAccessoryView that's attached to the bottom of the window.
+
+![5 - iPadOS - no intersection.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129551/5%20-%20iPadOS%20-%20no%20intersection.png)
 
 There are probably more, but here's the gist: it's pretty broken.
 
@@ -58,3 +64,6 @@ The results can be reproduced with the attached sample project:
 
 Screenshots of the results on iOS are attached.
 
+![Toggle accessory - portrait.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129558/Toggle%20accessory%20-%20portrait.png)
+
+![Toggle accessory - landscape.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129558/Toggle%20accessory%20-%20landscape.png)
