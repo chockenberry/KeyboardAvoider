@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24093.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HYh-MY-hfZ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24053.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Rj5-wO-FPF">
+            <objects>
+                <navigationController id="HYh-MY-hfZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wr7-nO-PQg">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JG5-mg-G7p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p2D-ia-WeK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1306" y="106"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Test" id="BYZ-38-t0r" customClass="ViewController" customModule="KeyboardAvoider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gdb-k2-hpo">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+
+</mutableString>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                            </textView>
+                            <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILm-iG-dcS" userLabel="Top Safe Area">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="172"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </view>
+                            <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mG2-0B-oGI" userLabel="Bottom Safe Area">
+                                <rect key="frame" x="0.0" y="784" width="393" height="68"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9v-SF-BSo" userLabel="Notification Offset">
+                                <rect key="frame" x="196.66666666666663" y="842" width="196.33333333333337" height="10"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="DuZ-Hn-eyr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbo-R8-3wu" userLabel="Top Keyboard">
+                                <rect key="frame" x="0.0" y="774" width="196.66666666666666" height="10"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="aTN-fu-r6p"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <keyboardLayoutGuide key="keyboard" id="85u-yH-1SS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerX" secondItem="Jbo-R8-3wu" secondAttribute="trailing" id="1mj-7z-mFc"/>
+                            <constraint firstItem="Gdb-k2-hpo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3o3-ng-bwq"/>
+                            <constraint firstItem="mG2-0B-oGI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7qF-J6-DwE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ILm-iG-dcS" secondAttribute="trailing" id="CQ8-Ts-ehd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerX" secondItem="y9v-SF-BSo" secondAttribute="leading" id="DCC-PU-5oW"/>
+                            <constraint firstAttribute="trailing" secondItem="Gdb-k2-hpo" secondAttribute="trailing" id="EiN-hn-w2H"/>
+                            <constraint firstItem="85u-yH-1SS" firstAttribute="top" secondItem="Jbo-R8-3wu" secondAttribute="bottom" id="KFz-nB-Nzz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y9v-SF-BSo" secondAttribute="trailing" id="Kfe-xN-hRl"/>
+                            <constraint firstItem="ILm-iG-dcS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NhG-Il-By5"/>
+                            <constraint firstItem="mG2-0B-oGI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OnW-Ic-edW"/>
+                            <constraint firstAttribute="bottom" secondItem="y9v-SF-BSo" secondAttribute="bottom" id="Txu-Er-sjh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mG2-0B-oGI" secondAttribute="trailing" id="UEw-28-I8w"/>
+                            <constraint firstAttribute="bottom" secondItem="mG2-0B-oGI" secondAttribute="bottom" id="dRM-gR-ABn"/>
+                            <constraint firstItem="Gdb-k2-hpo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jDb-tC-mrx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="ILm-iG-dcS" secondAttribute="bottom" id="lnx-of-DK5"/>
+                            <constraint firstAttribute="bottom" secondItem="Gdb-k2-hpo" secondAttribute="bottom" id="mGf-45-B4k"/>
+                            <constraint firstItem="Jbo-R8-3wu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wKV-xo-Qkq"/>
+                            <constraint firstItem="ILm-iG-dcS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zMe-H5-gP3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2v7-eF-2dH">
+                        <barButtonItem key="leftBarButtonItem" title="Accessory" id="4Ts-fh-IzY">
+                            <connections>
+                                <action selector="toggleAccessory" destination="BYZ-38-t0r" id="seh-qh-Lsk"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Responder" id="MeM-gt-xim">
+                            <connections>
+                                <action selector="toggleResponder" destination="BYZ-38-t0r" id="iYt-oM-MzO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="accessoryBarButtonItem" destination="4Ts-fh-IzY" id="gzc-f6-yXO"/>
+                        <outlet property="customInputAccessoryView" destination="SL8-Zr-gcv" id="EZd-es-GON"/>
+                        <outlet property="notificationOffsetConstraint" destination="Txu-Er-sjh" id="YJM-uN-Oat"/>
+                        <outlet property="responderBarButtonItem" destination="MeM-gt-xim" id="Sg1-fk-wos"/>
+                        <outlet property="textView" destination="Gdb-k2-hpo" id="JSa-Fi-wpB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SL8-Zr-gcv" userLabel="Input View" customClass="InputAccessoryView" customModule="KeyboardAvoider" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" id="0mQ-ti-ZdT">
+                            <rect key="frame" x="20" y="0.0" width="200" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8J-bM-YE4">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="60" id="Y7z-Jq-8MR"/>
+                                    </constraints>
+                                    <color key="tintColor" systemColor="labelColor"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Foo"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUB-Np-kys">
+                                    <rect key="frame" x="140" y="0.0" width="60" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="60" id="txN-Gs-Evb"/>
+                                    </constraints>
+                                    <color key="tintColor" systemColor="labelColor"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Bar"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-213" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
