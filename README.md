@@ -71,3 +71,15 @@ Screenshots of the results on iOS are attached.
 ![Toggle accessory - portrait.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129558/Toggle%20accessory%20-%20portrait.png)
 
 ![Toggle accessory - landscape.png](https://github.com/chockenberry/KeyboardAvoider/blob/main/FB18129558/Toggle%20accessory%20-%20landscape.png)
+
+## FB18184281 - iOS26: Keyboard Layout Guide does not update when window is dragged behind keyboard
+
+The keyboard layout guide does not update when a window that contains the view with the layout guide is moved behind the keyboard. See the attached video.
+
+To reproduce this issue, get the app from the GitHub repo.
+
+The red rectangle is the view that's constrained to the keyboard layout guide.
+
+[Video](https://github.com/chockenberry/KeyboardAvoider/tree/main/FB18184281)
+
+
